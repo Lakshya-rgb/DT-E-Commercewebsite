@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TheBookStore</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	  <style>
+    /* Remov1e the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 10px;
+      border-width:   5px;
+      border-color: #cdae88;
+      background-color: ;
+      font-style: normal;
+     	font-weight: 10;
+      
+      
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+ .footer.transparent.footer-inverse .footer {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+    
+  </style>
+</head>
+<body background = "http://blog.hdwallsource.com/wp-content/uploads/2016/02/books-wallpaper-49796-51475-hd-wallpapers.jpg">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="NewFile.html" style="color: #c19a6b " >TheBookStore</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="NewFile.html" style="color:#c19a6b " >Home</p></a></li>
+        <li><a href="products.html" style="color: #c19a6b ">Products</p></a></li>
+        <li><a href="deals.html" style="color: #c19a6b ">Today's Deals</p></a></li>
+        <li><a href="locations.html" style="color: #c19a6b ">Our Stores</p></a></li>
+        <li><a href="contact.html" style="color: #c19a6b;">Contact Us</p></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Login.html" style="color: #c19a6b;"><span class="glyphicon glyphicon-user" class="text-danger"></span>Login</a></li>
+        <li><a href="shoppingcart.html" style="color: #c19a6b;"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="img-responsive" src="http://www.escritarelativa.com.br/wp-content/uploads/2016/01/facts-about-severus-snape-severus-snape-391241-1920x500.jpg" alt="Harry Potter" >
+      <div class="carousel-caption">
+        <h3>Harry Potter</h3>
+        <p>Something about the book</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img class="img-responsive" src="http://images.huffingtonpost.com/2014-07-22-Andy_header.jpg" alt="RandomBook" >
+      <div class="carousel-caption">
+        <h3 style="color: ##434343">Random book</h3>
+        <p style="color: ##434343">Somthing about the random book</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img class="img-responsive" src="https://assets.tpo.com/attachments/store/fill/1920/500/5d939959c91713b5f94473f75c5fc76784a8537815c770ba13fc05651a26/header2.png" alt="Artimis" >
+      <div class="carousel-caption">
+        <h3 style="color: ##434343">Artemis Fowl</h3>
+        <p style="color: ##434343">A series that I really like</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img class="img-responsive" src="https://blogkinomana.com/wp-content/uploads/2016/01/cropped-movie-film-the-lord-of-the-rings-vlastelin-kolec-frodo.jpg" alt="LordOfTheRings" >
+      <div class="carousel-caption">
+        <h3 style="color: ##434343">Lord Of The Rings</h3>
+        <p style="color: ##434343">It is a super long story.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="newarrivals.html" class="thumbnail">   
+        <img src="http://mppl.org/wp-content/uploads/New-Arrivals.jpg" alt="New Arrivals"  style="height:400px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="deals.html" class="thumbnail">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/02/uk-books/topoffers/Deals/UK_BOOKS_12-11-15_Deals_in_Books_Under_15._V288861969_.jpg" alt="Todays Deals" style="height:400px">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="collection.html" class="thumbnail">    
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Urval_av_de_bocker_som_har_vunnit_Nordiska_radets_litteraturpris_under_de_50_ar_som_priset_funnits_(2).jpg" alt="Cinque Terre" style="height:400px">
+      </a>
+    </div>
+  </div>
+<div class="row">
+            <div class="col-md-1">
+    </div>
+    <div class="col-md-6">
+    <h1 style="color: #c19a6b" >Featured Author This Week: Ian Fleming</h1><br>
+    <p style="color: #c19a6b">
+    Ian Fleming was born on May 28, 1908 in London, England. He worked in financial services before writing the 1953 novel Casino Royale, which featured spy character James Bond. The books were a hit, and Bond became the protagonist of a blockbuster film franchise that’s continued into the 21st century. Fleming also wrote the popular children’s book Chitty Chitty Bang Bang, which also became a film.
+    </p>
+    
+    </div>
+            <div class="col-md-1">
+    </div>
+    <div class="col-md-3">
+      <a href="https://en.wikipedia.org/wiki/Ian_Fleming" class="thumbnail">
+        <img src="http://a1.files.biography.com/image/upload/c_fit,cs_srgb,dpr_1.0,h_1200,q_80,w_1200/MTIwNjA4NjMzODExNzk3NTE2.jpg" alt="Author" >
+      </a>
+    </div>
+            <div class="col-md-1">
+    </div>
+    </div>
+
+
+
+  
+  <div class="footer transparent footer-inverse">
+<footer class="container-fluid text-center">
+  <p style="color: #c19a6b">Online Store Copyright</p>  
+  <form class="form-inline" style="color: #c19a6b">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger" >Subscribe</button>
+  </form>
+</footer>
+<div class="row"><div class="container-fluid"> <br></div></div>
+<div class="row"><div class="container-fluid"> <br></div></div>
+</body>
+</html>
